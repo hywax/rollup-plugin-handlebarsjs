@@ -1,0 +1,65 @@
+{
+  "name": "rollup-plugin-handlebarsjs",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/rollup-plugin-handlebarsjs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "types": "./types/index.d.ts",
+    "import": "./dist/es.js",
+    "default": "./dist/cjs.js"
+  },
+  "main": "./dist/cjs.js",
+  "module": "./dist/es.js",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "engines": {
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "pnpm build && changelogen --release --push && pnpm publish",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky"
+  },
+  "peerDependencies": {
+    "rollup": "^1.20.0||^2.0.0||^3.0.0||^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "rollup": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.0",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.23.1",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^22.1.0",
+    "changelogen": "^0.5.5",
+    "eslint": "^9.7.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8"
+  },
+  "lint-staged": {
+    "*.ts": "pnpm run lint"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
