@@ -22,7 +22,7 @@
     "types"
   ],
   "engines": {
-    "pnpm": ">=9.0.0"
+    "pnpm": ">=9.7.0"
   },
   "scripts": {
     "build": "rollup -c",
@@ -44,13 +44,13 @@
     "handlebars": "^4.7.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.23.1",
-    "@commitlint/cli": "^19.3.0",
+    "@antfu/eslint-config": "^2.25.1",
+    "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^22.1.0",
+    "@types/node": "^22.2.0",
     "changelogen": "^0.5.5",
-    "eslint": "^9.7.0",
+    "eslint": "^9.9.0",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.8"
   },
