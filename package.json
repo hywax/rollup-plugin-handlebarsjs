@@ -2,6 +2,7 @@
   "name": "rollup-plugin-handlebarsjs",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.7.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,9 +22,6 @@
     "dist",
     "types"
   ],
-  "engines": {
-    "pnpm": ">=9.7.0"
-  },
   "scripts": {
     "build": "rollup -c",
     "release": "pnpm build && changelogen --release --push && pnpm publish",
