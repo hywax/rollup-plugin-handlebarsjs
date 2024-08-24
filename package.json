@@ -2,7 +2,7 @@
   "name": "rollup-plugin-handlebarsjs",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.8.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -42,14 +42,14 @@
     "handlebars": "^4.7.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.26.0",
+    "@antfu/eslint-config": "^2.27.1",
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^22.4.0",
+    "@types/node": "^22.5.0",
     "changelogen": "^0.5.5",
-    "eslint": "^9.9.0",
-    "husky": "^9.1.4",
+    "eslint": "^9.9.1",
+    "husky": "^9.1.5",
     "lint-staged": "^15.2.9"
   },
   "lint-staged": {
