@@ -43,13 +43,13 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
-    "@commitlint/cli": "^19.4.1",
-    "@commitlint/config-conventional": "^19.4.1",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^22.5.4",
     "changelogen": "^0.5.5",
     "eslint": "^9.10.0",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "lint-staged": "^15.2.10"
   },
   "lint-staged": {
