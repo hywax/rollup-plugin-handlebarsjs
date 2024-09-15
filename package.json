@@ -46,7 +46,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.5.5",
     "changelogen": "^0.5.5",
     "eslint": "^9.10.0",
     "husky": "^9.1.6",
