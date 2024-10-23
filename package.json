@@ -38,7 +38,7 @@
     }
   },
   "dependencies": {
-    "@rollup/pluginutils": "^5.1.2",
+    "@rollup/pluginutils": "^5.1.3",
     "handlebars": "^4.7.8"
   },
   "devDependencies": {
@@ -46,7 +46,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@rollup/plugin-typescript": "^12.1.1",
-    "@types/node": "^22.7.7",
+    "@types/node": "^22.7.9",
     "changelogen": "^0.5.7",
     "eslint": "^9.13.0",
     "husky": "^9.1.6",
